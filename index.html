@@ -1,12 +1,39 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Landing restaurante</title>
     <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="nav.css" />
+    <link rel="stylesheet" href="hero.css" />
+    <link rel="stylesheet" href="footer.css" />
   </head>
   <body>
+    <header>
+      <nav class="container nav">
+        <a href="#">Menú</a>
+        <a href="#">Contacto</a>
+      </nav>
+    </header>
+    <!-- Hero section -->
+    <section class="hero">
+      <div class="container hero-wrapper">
+        <div class="hero-content">
+            <h1 class="hero-title">Descubre una Experiencia Gastronómica Única</h1>
+          <p class="hero-description">
+            Disfruta de una experiencia culinaria única con nuestros platos gourmet, preparados por chefs expertos en un ambiente elegante y acogedor.
+          </p>
+          <button class="hero-button">Ver Menú</button>
+        </div>
+        <div class="hero-image">
+          <img
+            src="https://lh5.googleusercontent.com/proxy/b0bjgwRCWBehYDGoSzf0ZeliL_rXsEBh-0UNOhj4NBPiqV8h7JzyyqBs2v1R3Fdgo9RVMIqjDwqfbtFIyI-BYAghGUA"
+            alt="Main image"
+          />
+        </div>
+      </div>
+    </section>
     <section>
       <div>
         <form>
@@ -30,5 +57,50 @@
         </form>
       </div>
     </section>
+    <footer class="footer">
+      <div class="container footer-content">
+        <div class="footer-nav">
+          <a href="#">Restaurante</a>
+        </div>
+        <div class="footer-nav">
+          <a href="#">Menu</a>
+          <a href="#">Contacto</a>
+        </div>
+        <div class="footer-social">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="24"
+            height="24"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            class="social-icon instagram-icon"
+          >
+            <rect width="20" height="20" x="2" y="2" rx="5" ry="5" />
+            <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z" />
+            <line x1="17.5" x2="17.51" y1="6.5" y2="6.5" />
+          </svg>
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="24"
+            height="24"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            class="social-icon twitter-icon"
+          >
+            <path
+              d="M22 4s-.7 2.1-2 3.4c1.6 10-9.4 17.3-18 11.6 2.2.1 4.4-.6 6-2C3 15.5.5 9.6 3 5c2.2 2.6 5.6 4.1 9 4-.9-4.2 4-6.6 7-3.8 1.1 0 3-1.2 3-1.2z"
+            />
+          </svg>
+        </div>
+      </div>
+    </footer>
   </body>
 </html>
