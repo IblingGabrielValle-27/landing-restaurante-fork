@@ -3,3 +3,12 @@ section {
     background-color: #f9f9f9;
     border-bottom: 1px solid #eee;
 }
+h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+p {
+    font-size: 16px;
+    line-height: 1.5;
+    color: #333;
+}
